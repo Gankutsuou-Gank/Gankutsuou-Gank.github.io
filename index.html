@@ -1,6 +1,64 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <p style="background-image: url('preview.png');">
-        </p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Gank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gank</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+        </section>
+        <section id="games">
+            <h2>Our Games</h2>
+            <ul>
+                <li>
+                    <h3>Game Title 1</h3>
+                    <img src="game1.jpg" alt="Game Title 1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur nisi eu nunc facilisis, vel tristique mauris bibendum.</p>
+                </li>
+                <li>
+                    <h3>Game Title 2</h3>
+                    <img src="game2.jpg" alt="Game Title 2">
+                    <p>Aliquam mollis metus non mauris laoreet, vel ullamcorper mi finibus. Vestibulum convallis ex eget quam lacinia.</p>
+                </li>
+                <li>
+                    <h3>Game Title 3</h3>
+                    <img src="game3.jpg" alt="Game Title 3">
+                    <p>Sed vitae mi euismod, dignissim massa vel, dapibus urna. Duis tincidunt lacinia mi, in pharetra erat malesuada quis.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Gank &copy; 2023</p>
+    </footer>
+</body>
 </html>
